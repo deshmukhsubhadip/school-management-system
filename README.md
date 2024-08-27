@@ -1,9 +1,9 @@
-School Management System
+#School Management System
 
-Overview
+##Overview
 This project is a comprehensive School Management System built using Node.js, Express.js, and MongoDB. It manages various school operations, including teacher details, student details, staff details, attendance, exam schedules, holidays, library, and sports schedules.
 
-Features
+##Features
 Teacher, Student, and Staff Management:
 Register: New users (teachers, students, staff) can register with their details.
 Login: Registered users can log in using their email and password.
@@ -22,7 +22,7 @@ Sports Schedule: Manage sports events, including dates, times, and locations.
 
 Authentication: Secure authentication for students, staff, and teachers using middleware.
 
-Installation
+##Installation
 Clone the repository:
 git clone https://github.com/yourusername/school-management-system.git
 cd school-management-system
@@ -35,10 +35,10 @@ JWT_SECRET=your_jwt_secret
 Start the server:
 npm start
 
-Testing
+##Testing
 Use Postman to test the API endpoints. All endpoints are secured and require authentication.
 
-Models
+##Models
 Teacher: Manages teacher registration, login, update, and deletion.
 Student: Manages student registration, login, update, and deletion.
 Staff: Manages staff registration, login, update, and deletion.
@@ -48,8 +48,8 @@ Holiday: Lists school holidays.
 Library: Manages books in the library.
 Sport: Manages sports events.
 
-Authentication
+##Authentication
 Authentication is handled using JWT tokens. Different roles (teachers, students, staff) have appropriate access to specific routes. Once registered, users can log in with their email and password to access the system.
 
-Database
+##Database
 Data is stored in MongoDB with unique IDs for each entry.
