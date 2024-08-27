@@ -25,23 +25,17 @@ Authentication: Secure authentication for students, staff, and teachers using mi
 
 Installation
 Clone the repository:
-bash
-Copy code
 git clone https://github.com/yourusername/school-management-system.git
 cd school-management-system
 Install dependencies:
-bash
-Copy code
 npm install
 Set up environment variables (create a .env file):
 plaintext
-Copy code
 MONGODB_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
 Start the server:
-bash
-Copy code
 npm start
+
 Testing
 Use Postman to test the API endpoints. All endpoints are secured and require authentication.
 
@@ -54,6 +48,7 @@ ExamSchedule: Handles exam schedules.
 Holiday: Lists school holidays.
 Library: Manages books in the library.
 Sport: Manages sports events.
+
 Authentication
 Authentication is handled using JWT tokens. Different roles (teachers, students, staff) have appropriate access to specific routes. Once registered, users can log in with their email and password to access the system.
 
