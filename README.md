@@ -5,7 +5,6 @@ This project is a comprehensive School Management System built using Node.js, Ex
 
 Features
 Teacher, Student, and Staff Management:
-
 Register: New users (teachers, students, staff) can register with their details.
 Login: Registered users can log in using their email and password.
 Update: Users can update their details.
